@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "project": {
+      "key": "JIRA"
+    },
+    "summary": "Test Automation Execution from Github actions ",
+    "description": "Test Automation Execution from Github actions",
+    "customfield_10928": [
+      "browser",
+      "Github_Actions"
+    ],
+    "components": [
+      {
+        "name":"Motus - Frontend"
+      }
+    ],
+    "issuetype": {
+      "id": "10402"
+    },
+
+    "fixVersions": [
+      {
+        "id": "275636"
+      }
+    ],
+    "customfield_10930": [
+      "JIRA-1234"
+    ],
+    "assignee": {
+      "name": ""
+    }
+  }
+}

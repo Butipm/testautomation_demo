@@ -1,0 +1,5 @@
+automation/tests/StepDefinitions/BasePage.class
+automation/tests/runner/TestRunner.class
+automation/tests/utilities/BrowserDriver.class
+automation/tests/uiTests/UsersRunner.class
+automation/ExamplesTest.class

@@ -1,0 +1,2 @@
+appselection,subtype,dbSelect,schemaarray,tablearray,selectBO,datadesarray,dbVendor,DB_Server,port,DB_Name,DB_Username,DB_password
+Motus - (APP-4661),DECOUPLING,DEBMW_DV1G,LMT-LTT-WST,TLMQLT-TLM0TC,Sales Partner,Transactional,Postgres,testhost,8080,motus_test,testuser,password1

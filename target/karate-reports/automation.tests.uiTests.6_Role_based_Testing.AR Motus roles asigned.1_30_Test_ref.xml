@@ -1,0 +1,33 @@
+<testsuite failures="1" name="automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature" skipped="0" tests="1" time="46.633341"><testcase classname="automation.tests.uiTests.6_Role_based_Testing.AR Motus roles asigned.1_30_Test_ref" name="Test_AR test User PROD Role and promote &lt;userName&gt;:&lt;role&gt;" time="46.633341"><failure message="js failed:&#xA;&gt;&gt;&gt;&gt;&#xA;01: waitForUrl('https://auth.bmwgroup.net/')&#xA;&lt;&lt;&lt;&lt;&#xA;org.graalvm.polyglot.PolyglotException: waitForUrl: failed after 20 retries and 30133 milliseconds&#xA;- com.intuit.karate.driver.DriverOptions.retry(DriverOptions.java:517)&#xA;- com.intuit.karate.driver.DriverOptions.waitForUrl(DriverOptions.java:684)&#xA;- com.intuit.karate.driver.Driver.waitForUrl(Driver.java:242)&#xA;- &lt;js&gt;.:anonymous(Unnamed:1)&#xA;&#xA;classpath:automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature:22">* url testsWeb ............................................................ passed
+* print testsWeb .......................................................... passed
+* configure ssl = true .................................................... passed
+Given driver testsWeb ..................................................... passed
+* delay(2000) ............................................................. passed
+* def actualUrl = driver.url .............................................. passed
+* eval if (actualUrl === '') (driver.url = testWeb) ....................... passed
+* delay(1000) ............................................................. passed
+* driver.maximize() ....................................................... passed
+* refresh() ............................................................... passed
+* delay(3000) ............................................................. passed
+* def actualUrl = waitForUrl('https://auth.bmwgroup.net/') ................ failed
+
+Stack Trace:
+com.intuit.karate.KarateException: js failed:
+&gt;&gt;&gt;&gt;
+01: waitForUrl('https://auth.bmwgroup.net/')
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: waitForUrl: failed after 20 retries and 30133 milliseconds
+- com.intuit.karate.driver.DriverOptions.retry(DriverOptions.java:517)
+- com.intuit.karate.driver.DriverOptions.waitForUrl(DriverOptions.java:684)
+- com.intuit.karate.driver.Driver.waitForUrl(Driver.java:242)
+- &lt;js&gt;.:anonymous(Unnamed:1)
+
+classpath:automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature:22
+	at &lt;feature&gt;.: * def actualUrl = waitForUrl('https://auth.bmwgroup.net/') (classpath:automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature:22:22)
+
+* def myLowerCaseactualUrl = actualUrl.toLowerCase() ...................... skipped
+* eval .................................................................... skipped
+* delay(15000) ............................................................ skipped
+* driver.quit() ........................................................... skipped
+</failure></testcase>
+</testsuite>

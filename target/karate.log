@@ -1,0 +1,278 @@
+09:46:45.707 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @test-24293
+09:46:45.791 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': local
+09:46:46.415 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:46:47.435 [main] INFO  com.intuit.karate - Users:  [
+  "q",
+  "q",
+  "q",
+  "q"
+]
+ 
+09:46:47.436 [main] INFO  com.intuit.karate - Passwords:  [
+  "1",
+  "2",
+  "3",
+  "4"
+]
+ 
+09:46:47.442 [main] INFO  com.intuit.karate - OS:  mac os x 
+09:46:47.469 [main] INFO  com.intuit.karate - [print] https://adactinhotelapp.com/ 
+09:46:47.577 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+09:46:47.579 [chrome_1715672807567] DEBUG c.i.k.driver.chrome_1715672807567 - command: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=/Users/itumelengmothibi/IdeaProjects/testautomation_demo/target/chrome_1715672807567, --disable-popup-blocking, --ignore-certificate-errors, --incognito, --disable-web-security], working dir: target/chrome_1715672807567
+09:46:47.582 [main] DEBUG c.i.k.driver.chrome_1715672807567 - poll attempt #0 for port to be ready - localhost:9222
+09:46:47.839 [main] DEBUG c.i.k.driver.chrome_1715672807567 - poll attempt #1 for port to be ready - localhost:9222
+09:46:48.096 [main] DEBUG c.i.k.driver.chrome_1715672807567 - poll attempt #2 for port to be ready - localhost:9222
+09:46:48.353 [main] DEBUG c.i.k.driver.chrome_1715672807567 - poll attempt #3 for port to be ready - localhost:9222
+09:46:48.606 [main] DEBUG c.i.k.driver.chrome_1715672807567 - poll attempt #4 for port to be ready - localhost:9222
+09:46:48.810 [chrome_1715672807567-out] DEBUG c.i.k.driver.chrome_1715672807567 - 
+09:46:48.811 [chrome_1715672807567-out] DEBUG c.i.k.driver.chrome_1715672807567 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/c2cfccbd-e46a-4d58-bbc7-77139c4dcad8
+09:46:48.860 [main] DEBUG c.i.k.driver.chrome_1715672807567 - poll attempt #5 for port to be ready - localhost:9222
+09:46:48.973 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:46:49.792 [main] DEBUG com.intuit.karate - response time in milliseconds: 809
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1464
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/49BF2380685D1805B0E38EC499FEC4F3",
+   "id": "49BF2380685D1805B0E38EC499FEC4F3",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/49BF2380685D1805B0E38EC499FEC4F3"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/88EC5231EFF4035A33B303C772647186",
+   "id": "88EC5231EFF4035A33B303C772647186",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/88EC5231EFF4035A33B303C772647186"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/73B4465E08416F36A58675D03DB0FE5E",
+   "id": "73B4465E08416F36A58675D03DB0FE5E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/73B4465E08416F36A58675D03DB0FE5E"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9879F09BBFBEB8F3F360A0BDCA66C8C9",
+   "id": "9879F09BBFBEB8F3F360A0BDCA66C8C9",
+   "title": "New Incognito tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9879F09BBFBEB8F3F360A0BDCA66C8C9"
+} ]
+
+
+09:46:50.779 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 1879 ms - http://localhost:9222/json
+09:46:51.129 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:46:51.188 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 2504
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9879F09BBFBEB8F3F360A0BDCA66C8C9",
+   "faviconUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBmaWxsPSIjNDU1QTY0Ij48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDB6Ii8+PHBhdGggZD0iTTMgMTFoMTh2MUgzem0xNC42Mi0xLTIuMjktNi4xYy0uMTktLjUtLjc0LS43Ny0xLjI1LS42TDEyIDRsLTIuMDktLjdjLS41MS0uMTctMS4wNi4xLTEuMjUuNkw2LjM4IDEwaDExLjI0em0tMS4xMiAzYy0xLjY2IDAtMy4wNCAxLjE2LTMuNCAyLjcxLS44NC0uMzYtMS42Mi0uMjYtMi4yLS4wMUEzLjUwMyAzLjUwMyAwIDAgMCA3LjUgMTNDNS41NyAxMyA0IDE0LjU3IDQgMTYuNVM1LjU3IDIwIDcuNSAyMGMxLjg0IDAgMy4zMy0xLjQyIDMuNDctMy4yMi4zLS4yMSAxLjA5LS42IDIuMDYuMDIuMTYgMS43OSAxLjY0IDMuMiAzLjQ3IDMuMiAxLjkzIDAgMy41LTEuNTcgMy41LTMuNVMxOC40MyAxMyAxNi41IDEzem0tOSA2YTIuNSAyLjUgMCAwIDEgMC01IDIuNSAyLjUgMCAwIDEgMCA1em05IDBhMi41IDIuNSAwIDAgMSAwLTUgMi41IDIuNSAwIDAgMSAwIDV6Ii8+PC9zdmc+",
+   "id": "9879F09BBFBEB8F3F360A0BDCA66C8C9",
+   "title": "New Incognito tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9879F09BBFBEB8F3F360A0BDCA66C8C9"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/49BF2380685D1805B0E38EC499FEC4F3",
+   "id": "49BF2380685D1805B0E38EC499FEC4F3",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/49BF2380685D1805B0E38EC499FEC4F3"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/88EC5231EFF4035A33B303C772647186",
+   "id": "88EC5231EFF4035A33B303C772647186",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/88EC5231EFF4035A33B303C772647186"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/73B4465E08416F36A58675D03DB0FE5E",
+   "id": "73B4465E08416F36A58675D03DB0FE5E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/73B4465E08416F36A58675D03DB0FE5E"
+} ]
+
+
+09:46:51.217 [main] DEBUG c.i.k.driver.chrome_1715672807567 - root frame id: 9879F09BBFBEB8F3F360A0BDCA66C8C9
+09:46:51.665 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+09:46:51.667 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9","flatten":true}}
+09:46:51.679 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.attachedToTarget","params":{"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","targetInfo":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9","type":"page","title":"New Incognito tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"3A44178A9C455475C65E8E0E4279FF76"},"waitingForDebugger":false}}
+09:46:51.680 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":1,"result":{"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}}
+09:46:51.680 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":2,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Target.activateTarget","params":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"}}
+09:46:51.687 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":2,"result":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.687 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":3,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Target.setDiscoverTargets","params":{"discover":true}}
+09:46:51.690 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"49BF2380685D1805B0E38EC499FEC4F3","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"488EBC199F8AA7FCC275DAB49F58D7D4"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.690 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"73B4465E08416F36A58675D03DB0FE5E","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"488EBC199F8AA7FCC275DAB49F58D7D4"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.690 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"88EC5231EFF4035A33B303C772647186","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"3A44178A9C455475C65E8E0E4279FF76"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.691 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9","type":"page","title":"New Incognito tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"3A44178A9C455475C65E8E0E4279FF76"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.691 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":3,"result":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.691 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":4,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Page.enable"}
+09:46:51.692 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":4,"result":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.692 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":5,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.enable"}
+09:46:51.694 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://newtab","name":"","uniqueId":"2360893791473356219.-6247105073960043965","auxData":{"isDefault":true,"type":"default","frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"}}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.695 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":5,"result":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.695 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":6,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Browser.getWindowForTarget","params":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"}}
+09:46:51.696 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":6,"result":{"windowId":150109972,"bounds":{"left":22,"top":61,"width":1200,"height":945,"windowState":"normal"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:51.824 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":7,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Page.navigate","params":{"url":"https:\/\/adactinhotelapp.com\/"}}
+09:46:51.830 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameStartedLoading","params":{"frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:52.779 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"4EBA6BAEEC26EA43C9535F4279A8DD31","type":"other","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"488EBC199F8AA7FCC275DAB49F58D7D4"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:52.783 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"CFF12719EFAF78E4269E955A075ADB23","type":"app","title":"Chrome Web Store Payments","url":"","attached":false,"canAccessOpener":false,"browserContextId":"488EBC199F8AA7FCC275DAB49F58D7D4"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:52.836 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4EBA6BAEEC26EA43C9535F4279A8DD31","type":"background_page","title":"Google Docs Offline","url":"chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"488EBC199F8AA7FCC275DAB49F58D7D4"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:52.868 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"CFF12719EFAF78E4269E955A075ADB23","type":"background_page","title":"Chrome Web Store Payments","url":"chrome-extension://nmmhkkegccagdldgiimedpiccmgmieda/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"488EBC199F8AA7FCC275DAB49F58D7D4"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.080 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":7,"result":{"frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9","loaderId":"DAEF7C7475E7701FCDF501D698F7BE41"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.094 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.097 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9","type":"page","title":"adactinhotelapp.com","url":"https://adactinhotelapp.com/","attached":true,"canAccessOpener":false,"browserContextId":"3A44178A9C455475C65E8E0E4279FF76"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.105 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.107 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"9879F09BBFBEB8F3F360A0BDCA66C8C9","loaderId":"DAEF7C7475E7701FCDF501D698F7BE41","url":"https://adactinhotelapp.com/","domainAndRegistry":"adactinhotelapp.com","securityOrigin":"https://adactinhotelapp.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.119 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://adactinhotelapp.com","name":"","uniqueId":"-7189909892982587225.7969143491923370599","auxData":{"isDefault":true,"type":"default","frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"}}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:56.578 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.domContentEventFired","params":{"timestamp":446038.390417},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:58.656 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":8,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:46:58.665 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":8,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:46:59.727 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":9,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Browser.setWindowBounds","params":{"windowId":150109972,"bounds":{"windowState":"maximized"}}}
+09:47:00.129 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":9,"result":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.133 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.136 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":10,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Page.reload"}
+09:47:00.360 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.390 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.393 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.397 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.399 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.399 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.402 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.405 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.405 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameResized","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.414 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameStartedLoading","params":{"frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.415 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":10,"result":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.898 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9","type":"page","title":"Adactin.com - Hotel Reservation System","url":"https://adactinhotelapp.com/","attached":true,"canAccessOpener":false,"browserContextId":"3A44178A9C455475C65E8E0E4279FF76"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.906 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.907 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"9879F09BBFBEB8F3F360A0BDCA66C8C9","loaderId":"DAF25A9C81E20CEF1624BC5FA9AA111C","url":"https://adactinhotelapp.com/","domainAndRegistry":"adactinhotelapp.com","securityOrigin":"https://adactinhotelapp.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.908 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://adactinhotelapp.com","name":"","uniqueId":"7901025910451027530.-2735484887798184350","auxData":{"isDefault":true,"type":"default","frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"}}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:00.909 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.domContentEventFired","params":{"timestamp":446042.721681},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:02.446 [chrome_1715672807567-out] DEBUG c.i.k.driver.chrome_1715672807567 - Created TensorFlow Lite XNNPACK delegate for CPU.
+09:47:03.223 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.loadEventFired","params":{"timestamp":446045.034916},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:03.224 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:03.928 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'actualUrl' with new value: waitForUrl('https://auth.bmwgroup.net/')
+09:47:03.937 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":11,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:03.939 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":11,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:03.940 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+09:47:05.156 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetDestroyed","params":{"targetId":"88EC5231EFF4035A33B303C772647186"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:05.158 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetDestroyed","params":{"targetId":"49BF2380685D1805B0E38EC499FEC4F3"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:05.158 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetDestroyed","params":{"targetId":"73B4465E08416F36A58675D03DB0FE5E"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:05.445 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":12,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:05.447 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":12,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:05.447 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+09:47:06.950 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":13,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:06.952 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":13,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:06.952 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #3
+09:47:07.918 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetDestroyed","params":{"targetId":"CFF12719EFAF78E4269E955A075ADB23"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:08.026 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"method":"Target.targetDestroyed","params":{"targetId":"4EBA6BAEEC26EA43C9535F4279A8DD31"},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:08.457 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":14,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:08.459 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":14,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:08.460 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #4
+09:47:09.960 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":15,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:09.962 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":15,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:09.962 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #5
+09:47:11.468 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":16,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:11.470 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":16,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:11.470 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #6
+09:47:12.975 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":17,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:12.977 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":17,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:12.977 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #7
+09:47:14.483 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":18,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:14.484 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":18,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:14.485 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #8
+09:47:15.990 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":19,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:15.992 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":19,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:15.992 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #9
+09:47:17.498 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":20,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:17.501 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":20,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:17.501 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #10
+09:47:19.006 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":21,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:19.008 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":21,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:19.008 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #11
+09:47:20.510 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":22,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:20.512 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":22,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:20.512 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #12
+09:47:22.013 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":23,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:22.016 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":23,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:22.016 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #13
+09:47:23.519 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":24,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:23.521 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":24,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:23.521 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #14
+09:47:25.023 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":25,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:25.024 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":25,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:25.024 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #15
+09:47:26.530 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":26,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:26.531 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":26,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:26.531 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #16
+09:47:28.037 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":27,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:28.038 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":27,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:28.038 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #17
+09:47:29.544 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":28,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:29.545 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":28,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:29.546 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #18
+09:47:31.051 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":29,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:31.052 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":29,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:31.053 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #19
+09:47:32.558 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":30,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:32.560 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":30,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:32.560 [main] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #20
+09:47:34.065 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":31,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+09:47:34.070 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":31,"result":{"result":{"type":"string","value":"https://adactinhotelapp.com/"}},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:34.083 [main] WARN  c.intuit.karate.driver.DriverOptions - waitForUrl: failed after 20 retries and 30133 milliseconds
+09:47:34.109 [main] ERROR com.intuit.karate - classpath:automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature:22
+* def actualUrl = waitForUrl('https://auth.bmwgroup.net/')
+js failed:
+>>>>
+01: waitForUrl('https://auth.bmwgroup.net/')
+<<<<
+org.graalvm.polyglot.PolyglotException: waitForUrl: failed after 20 retries and 30133 milliseconds
+- com.intuit.karate.driver.DriverOptions.retry(DriverOptions.java:517)
+- com.intuit.karate.driver.DriverOptions.waitForUrl(DriverOptions.java:684)
+- com.intuit.karate.driver.Driver.waitForUrl(Driver.java:242)
+- <js>.:anonymous(Unnamed:1)
+
+classpath:automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature:22
+09:47:34.110 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":32,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Page.captureScreenshot"}
+09:47:34.656 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":32,"result":{"data":"iVBORw0KGgoAAAANSUhEUgAADVwAAAaoCAIAAABKymY9AAABK2lDQ1BTa2lhAAAokX2QMUvDUBSFv1cKomYRFR0cMnbRppWmDdahqbXo2Cqk3dI0FLFNQxrRvas/wtlNcBGhs4uT4CTi4i4IrpXXDClIPNPHuQfuPRdSmwBpDQZeGDTqpmq12urCBwLBTLYz8kmWgJ/XKPuy/U8uSYtdd+QAX0AYWK02iC6w1ov4SnIn4mvJl6EfgriRHJw0qiDugUxvjjtz7PiBzL8B5UH/wonvRnG90yZgAVvUGTKkRx+XLE3OOcMmi0YNgxK71KhQoUCFHHlKGOgU0KhiUqRKkUN0SuTJcTBjA13+M1o5fof9yXQ6fYy94wnc6bD0EHuZPVhR4Ok59uIf+3Zgz6w0kHJN+F4H5RZWP2F5DGzIcUJX9U9XlSM8HHZQyaORQ/8FDJRN2vTWQQEAACAASURBVHic7L3LkuRIlqZ3/nMUMDOPiLxEZV2nu6t7umVEyFlwQZERLrjjim/CF+L78CkoMi0cCme6KrtzKisrMyLc3QzQc34u9ALAzDwycqQnV/jTw9IcV4VCVaEu58N/QFJ27dq1a9euXbt27dq1a9euXbt27dq1a9euXbt2/Vz627/6jbtfLpecc1nCJjSVX0WE7advefeYq+WAmAhut6wHvF4OEXyktFfbwxTDQEpMM4IDoCKCcPol3EEY1CzpoFRmCiGACIDlOARFgqQICYpwWRugQyhArY2yR99eQEDKivJBgiybgcu1gLi6LlAAULGcjqjVL0JK+V/9XmodAhCyrgNI272Uf7uSikggyIh2Y6VeY1UrI0mCyeIEGukeOXOmhCqgBBikOykwM2i7p1en/BGRdDI+dXOowAABXaKWXqAiSkBIoX/15cP/8Pe//V/+53//v/9v/+s//P3vqeV+dCmgUAUAVahtVmIwPLjn58t37tn0lcgl85vn/J/fX/4fyvww/JtX4799ffgfI ...
+09:47:34.681 [main] DEBUG c.i.k.driver.chrome_1715672807567 - >> {"id":33,"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C","method":"Target.closeTarget","params":{"targetId":"9879F09BBFBEB8F3F360A0BDCA66C8C9"}}
+09:47:34.683 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1715672807567 - << {"id":33,"result":{"success":true},"sessionId":"C5BE4DEFFDB53B7EECFA75FF02D9991C"}
+09:47:34.684 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket closing
+09:47:34.689 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+09:47:34.693 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1715672807567
+09:47:34.713 [chrome_1715672807567] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=/Users/itumelengmothibi/IdeaProjects/testautomation_demo/target/chrome_1715672807567, --disable-popup-blocking, --ignore-certificate-errors, --incognito, --disable-web-security] working dir: target/chrome_1715672807567
+09:47:36.095 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:automation/tests/uiTests/6_Role_based_Testing/AR Motus roles asigned/1_30_Test_ref.feature
+09:47:36.096 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+09:47:36.692 [main] INFO  n.m.cucumber.ReportParser - File '/Users/itumelengmothibi/IdeaProjects/testautomation_demo/target/karate-reports/automation.tests.uiTests.6_Role_based_Testing.AR Motus roles asigned.1_30_Test_ref.json' contains 1 feature(s)
